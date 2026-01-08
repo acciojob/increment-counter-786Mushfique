@@ -2,7 +2,7 @@
 let count = 0;
 const counter = document.getElementById("counter");
 
-function Increment() {
+function increment() {
     alert(count);        
     count++;
     counter.innerText = count;
