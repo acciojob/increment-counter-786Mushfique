@@ -1,9 +1,9 @@
 //your JS code here. If required.
-let parentDiv = document.getElementById("counter")
-let display = parentDiv.querySelector("p")
-let count = 0
-function Increment(){
-  count++;
-  display.innerText = count ;
-  }
+let count = 0;
+const counter = document.getElementById("counter");
+
+function Increment() {
+    alert(count);        
+    count++;
+    counter.innerText = count;
 }
